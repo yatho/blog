@@ -1,0 +1,43 @@
+:root {
+	--font-body: Arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+		Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	--color-bg: rgba(255, 255, 255, 0.7);
+	--color-theme-1: #1A73E8;
+	--color-text: #202124;
+	font-family: var(--font-body);
+	color: var(--color-text);
+}
+
+body {
+	margin: 0;
+	background-color: var(--color-bg);
+}
+
+h1 {
+	font-weight: 700;
+}
+h2 {
+	font-weight: 500;
+}
+p {
+	font-weight: 400;
+	line-height: 1.5;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+h2 {
+	font-size: 1rem;
+}
+
+@media (width > 720px) {
+	h1 {
+		font-size: 2.4rem;
+	}
+
+	h2 {
+		font-size: 1.2rem;
+	}
+}
