@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { formatDate } from '$lib/utils';
-
+	import { base } from '$app/paths';
 	export let data;
 </script>
 
@@ -13,7 +13,7 @@
 	<ul>
 		{#each data.posts as post}
 		<li class="post">
-			<a href={post.slug}>
+			<a href="{base}/{post.slug}">
 				<section class="title">
 					<h2>{post.title}</h2>
 					<section class="data">

@@ -2,11 +2,12 @@
 	import { page } from '$app/stores';
 	import logo from '$lib/images/blog-logo.svg';
 	import github from '$lib/images/github.svg';
+	import { base } from '$app/paths';
 </script>
 
 <header>
 	<div class="corner">
-		<a href="/">
+		<a href="{base}/">
 			<img src={logo} alt="blog-logo" />
 		</a>	
 	</div>
@@ -17,10 +18,10 @@
 		</svg>
 		<ul>
 			<li aria-current={$page.url.pathname === '/posts' ? 'page' : undefined}>
-				<a href="/posts">Posts</a>
+				<a href="{base}/posts">Posts</a>
 			</li>
 			<!-- <li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
-				<a href="/about">About</a>
+				<a href="{base}/about">About</a>
 			</li> -->
 		</ul>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
