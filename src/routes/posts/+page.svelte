@@ -5,7 +5,8 @@
 </script>
 
 <svelte:head>
-	<title>Liste des posts</title>
+	<title>Posts list</title>
+	<meta name="description" content="Technical posts list ordered by date" />
 </svelte:head>
 
 <!-- Posts -->
