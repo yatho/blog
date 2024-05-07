@@ -11,6 +11,14 @@
 	<meta name="description" content={data.meta.description} />
 </svelte:head>
 
+{#if data.meta.coverSrc}
+	{#if data.meta.coverAlt}
+		<img src={data.meta.coverSrc} alt={data.meta.coverAlt} loading="lazy" />
+	{:else}
+		<img src={data.meta.coverSrc} alt={data.meta.title} loading="lazy" />
+	{/if}	
+{/if}
+
 <article>
   <!-- Title -->
   <div>
@@ -31,3 +39,16 @@
 		<svelte:component this={data.content} />
 	</div>
 </article>
+
+<style>
+	img {
+		position: sticky;
+		top: 0;
+		z-index: 10;
+	}
+
+	article {
+		background-color: white;
+		z-index: 20;
+	}
+</style>

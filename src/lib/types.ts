@@ -1,4 +1,4 @@
-export type Categories = 'Angular' | 'Other'
+export type Categories = 'Angular' | 'Conference' | 'Other'
 
 export type Post = {
 	title: string
@@ -7,6 +7,8 @@ export type Post = {
 	date: string
 	categories: Categories[]
 	published: boolean
+	coverSrc?: string
+	coverAlt?: string
 	readingTime: {
 		text: string
 	}
