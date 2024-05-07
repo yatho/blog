@@ -27,7 +27,6 @@
       <p>Published at {formatDate(data.meta.date)}</p>
   </div>
 
-  <!-- Tags -->
 	<div class="tags">
 		{#each data.meta.categories as category}
 			<span>{category}</span>

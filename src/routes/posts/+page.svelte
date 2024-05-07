@@ -43,6 +43,10 @@
 		text-decoration: underline;
 	}
 
+	ul {
+		padding: 0;
+	}
+
 	.post {
 		margin-bottom: 1rem;
 		list-style: none;
@@ -53,21 +57,28 @@
 			border-color: hsl(0, 0%, 90%);
 		}
 
-		& section {
-			display: flex;
-			align-items: baseline;
-			justify-content: space-between;
+		& .title {
+			@media screen and (width >= 768px){
+				display: flex;
+				align-items: baseline;
+				justify-content: space-between;
+			}
 
 			& .data {
 				display: flex;
 				flex-direction: column;
 				align-items: flex-end;
+
+				@media screen and (width < 768px){
+					flex-direction: row-reverse;
+					justify-content: space-between;
+				}
 			}
 
 			& .time {
-			font-size: 0.8rem;
-			color: #666;
-		}
+				font-size: 0.8rem;
+				color: #666;
+			}
 		}
 	}
 </style>
