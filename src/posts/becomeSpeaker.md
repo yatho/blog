@@ -113,6 +113,8 @@ Puis enfin on se retrouve seul avec un sentiment de béatitude, la tête dans le
 
 Cette conférence a été sélectionnée 9 fois. Nous avons donc parcouru la France pour donner cette même conférence, souvent mise à jour, adaptée en fonction des questions que nous avions eu et de l'évolution de la technologie présentée ...
 
+![Devoxx stage](./becomeSpeaker/devoxxStage.jpg)
+
 Aujourd'hui je continue ce voyage en testant d'autres formats. Cette année j'ai même eu la chance d'être sélectionné à Devoxx France pour un Hands on. De plus, je suis devenu mentor moi-même en faisant entrer dans ce monde une personne atteinte du syndrome de l'imposteur au même titre que moi au début de cette expérience.
 
 Ce sentiment de béatitude est toujours là. Tant que je retrouverai ce sentiment, je continuerai à être Speaker.
