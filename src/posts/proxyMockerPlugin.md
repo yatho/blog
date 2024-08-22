@@ -3,7 +3,7 @@ title: Proxy Mocker - Mon premier plugin VSCode
 description: Quoi de mieux pour améliorer son quotidien qu'intégrer nos besoins dans notre IDE. Voici pourquoi je me suis lancer dans la création d'un plugin VSCode. Ce plugin permet de sauvegarder les requêtes vers un serveur pour pouvoir les mocker juste en cliquant sur un bouton.
 published: true
 slug: proxy-mocker-plugin
-date: "2024-08-26"
+date: "2024-08-22"
 categories:
   - VSCode
   - Plugin
