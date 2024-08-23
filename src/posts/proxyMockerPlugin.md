@@ -15,7 +15,9 @@ categories:
 
 ## Introduction
 
-Tout a commencé par un problème : une connexion internet instable. Ce souci est récurrent et perturbe considérablement mon quotidien de développeur front, surtout lorsque l'accès au réseau est indispensable pour travailler. Comment y remédier ?
+Tout a commencé par un problème : une connexion internet instable. Que ce soit mon réseau, le VPN ou la mise à jour du serveur utilisé, je passais du temps à attendre de pouvoir tester.
+
+Ce souci récurrent perturbe considérablement mon quotidien de développeur, surtout lorsque l'accès au réseau est indispensable. Comment y remédier ?
 
 Ma première solution a été de développer un projet de tests E2E. Ce projet permet de remplacer facilement les requêtes par des mocks, tout en améliorant la résilience grâce à des tests de non-régression automatisés. L'inconvénient principal est le coût de mise en place et la nécessité d'effectuer des opérations manuelles, comme la saisie des mocks.
 
@@ -29,7 +31,7 @@ Utilisant VSCode depuis plusieurs années, j'apprécie la simplicité de son sys
 
 ## Les fonctionnalités du plugin Proxy Mocker
 
-À ce jour, deux fonctionnalités principales sont disponibles :
+À ce jour, deux fonctionnalités sont disponibles :
 
 1. **Sauvegarder les requêtes**
    Dans cette première version, seules les valeurs du body, l'URL et la méthode HTTP (GET, POST, etc.) sont sauvegardées pour chaque requête. Des évolutions futures permettront d'ajouter d'autres éléments, tels que l'intégralité du corps de la requête.
